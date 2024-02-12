@@ -23,7 +23,21 @@ nav{
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.inner{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-self: start;
+  cursor: pointer;
+}
+.img-logo{
+  width: 34px;
+  height: 32px;
+  order: 1;
+  border-radius: 50%;
+}
 .logo{
+  order: 2;
   font-size: 36px;
   font-weight: 700;
 
